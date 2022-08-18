@@ -1,9 +1,9 @@
 /* the animation code */
 @keyframes animatedSquare {
- 0%   {background-color: red;}
- 25%  {background-color: yellow;}
- 50%  {background-color: blue;}
- 100% {background-color: green;}
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
 }
 
 /* the element to apply the animation to */
