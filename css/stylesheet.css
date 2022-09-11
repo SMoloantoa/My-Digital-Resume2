@@ -119,8 +119,63 @@ body{
     }
 
     @media screen and (max-width:768px){
-      /*if the browser window is 768px or smaller *
-      
+      /*if the browser window is 768px or smaller */
+      .content{
+        background-color: lightblue;
+        dispay:block;
+        width: 75%;
+        height:250px;
+        margin-left: auto;
+        margin-right: auto;
+
+      }
+      #bottom {
+        width: 90%;
+      }
+    }
+
+    .grid-container {
+      display:grid;
+      grid-gap: 10px;
+      grid-template-columns: auto auto auto;
+      padding: 10px;
+    }
+
+    /*select all div's that are children of class*/
+    .grid-container > div {
+      background-color: rgba (255, 255, 255, 0.8);
+      text align: center;
+      padding:20px 0;
+      font-size: 30px;
+      } 
+
+    /*use line numbers when spanning grid items.*/ 
+    .item1 {
+      grid-row: start: 1;
+      grid-row: end: 3px;
+   }
+
+  
+  }
+  @media screen and (max-width:768px){
+    .item1 {
+      grid-row-start: 1;
+      grid-row-end: 3;
+      grid-column: start: 1;
+      grid-column: end: 3;
+
     }
   
-    
+  .item8 {
+    grid-column: start: 2;
+    grid-column: end: 4;
+  }
+}
+@media screen and (max-width: 375px){
+  .grid-container > div{
+    grid-column: start: 1;
+    grid-column: end: 4;
+  }
+}
+
+  
