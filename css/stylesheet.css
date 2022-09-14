@@ -27,9 +27,10 @@ body{
     overflow: unset;
     background: url(https://cdn.britannica.com/47/18447-050-2C5E2037/Tai-Chi-chuan-practitioner.jpg), 
     url(/images/302765.jpg);
-    background-size: 100%;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: cover;
+    background-color: rgb(14, 177, 169);
     
   
   }
@@ -112,17 +113,17 @@ body{
     }
     .content{
       display: initiate block;
-      width: 30%;
+      width: 10%;
       height: 250px;
-      background-color: #985fa0;
+      background-color: #a214b4;
       margin: 50px;
     }
 
     @media screen and (max-width:768px){
       /*if the browser window is 768px or smaller */
       .content{
-        background-color: lightblue;
-        dispay:block;
+        background-color: rgb(13, 66, 83);
+        dispay: block;
         width: 75%;
         height:250px;
         margin-left: auto;
