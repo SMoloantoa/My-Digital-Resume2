@@ -1,8 +1,13 @@
 body {
     margin: 0;
-    background: #222;
+    background: rgb(182, 171, 171);
     font-family: 'work sans', sans-serif;
     font-weight: 400;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    overflow: unset;
 }
 
 .container {
@@ -12,7 +17,36 @@ body {
 
 header {
     background: #55d6aa;
+    text-align: center;
 }
+
+#sidebar {
+    width: 10%;
+    background-color: rgb(4, 119, 119);
+    padding: 2rem;
+    color: rgb(20, 20, 20);
+    width: 10%;
+}
+
+img {
+    border-radius: 50%;
+     
+  }
+
+  
+
+  .icons{
+    width: 8rem;
+    margin: 0.5rem;
+    height: auto;
+  
+  }
+
+footer {
+    background-color: #343330;
+    text-align: center;
+    
+  }
 
 header::after {
     content: "";
@@ -70,9 +104,17 @@ nav a:hover::before {
 
 }
 
+.navlist{
+    list-style-type: disc;
+      padding: 0%;
+  }
+  
+
+
 html,body{
     width: 100%;
     height: 100%;
+    
 }
 
 /* General Stuff */
@@ -191,3 +233,41 @@ strong{
     height: 689px;
     position: left;
 }
+
+/* the animation code */
+@keyframes animatedSquare {
+  0%   {background-color: red;
+        transform: translateY(200px)}
+  25%  {background-color: yellow;}
+        transform translateY(500px)
+  50%  {background-color: blue;
+        border-radius: 100%;}
+  100% {background-color: green;
+        transform: rotate(90deg);}
+}
+
+
+
+/* the element to apply the animation to */
+.icons {
+    width: 110px;
+    height: 100px;
+    background-color: red;
+    animation-name: animatedSquare;
+    animation-duration: 4s;
+    animation-iteration-count: ;
+    animation-timing-function: ;
+    animation-direction: alternate;
+    
+   
+
+}
+body {
+      background-image: url(img/sejaras.jpg);
+      background-position: center;
+      background-size: cover;
+      width: 1920px;
+      height: 825px;
+      
+}
+
