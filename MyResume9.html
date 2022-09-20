@@ -17,6 +17,22 @@
       background: #4c4c;
       box-shadow: 2px 2px 0px #666666;  
     }
+
+    #grid { 
+     display: grid;
+     grid-template-rows: 1fr ;
+     grid-template-columns:  1fr;
+     grid-gap: 2vw;
+     position: right;
+}
+#grid > div {
+font-size: 96%;
+padding: 1%;
+background: rgb(102, 96, 96);
+text-align: center;
+width: 30%;
+position: right;
+}
     </style>  
   <title>Resume 9</title>
 </head>
@@ -121,13 +137,13 @@
         </ul>       
             <div id="contents">
 
-               
+                <article class="col-lg-3">
                         <p> 
-                            <article class="col-sm-8">
+                            
                                 <h2 id="education"><strong>Education</strong></h2>
                                 <h5>Web Design, Dec 7, 2022</h5>
                                 <div class="fakeimg"><header id="heading">
-                                  <img id="Sejarow" src="Images/Sejarow.jpg"
+                                  <img id="Sejarow" src="Images/sejara1.jpg"
                                   width="100px"
                                   alt="some backup text"></div>
                             
@@ -138,15 +154,16 @@
          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id sunt quam ea excepturi voluptas, molestiae fugiat minima omnis modi, iste voluptatum nihil ratione, asperiores accusamus aperiam maiores obcaecati repellat nulla?</p>   
         </article>
     </p>
-
-    <h4><u>QUALIFICATION 1</u></h4> 
+    <div id="grid">
+        <div><h4><u>QUALIFICATION 1</u></h4>
         <P>
             <ul>
                 <li>Certification in Human Resources Management  (Obtained Certificate)</li>
             <mark><strong></strong>Course Content:</strong></mark>
                 <ul><li>Introduction to Human Resources Management</li></ul> 
-            </ul>
+            </ul></div>
 
+            <div>
      <h4><u>QUALIFICATION 2</u></h4> 
         <P>
             <ul>
@@ -154,15 +171,18 @@
             <mark><strong></strong>Course Content:</strong></mark>
                 <ul><li>N Plus, Linux Beginners, TCP/IP Plus, IT Project Management and Security Plus</li></ul>
             </ul> 
-       
-    <h4><u>QUALIFICATION 3</u></h4> 
+        </div>
+
+    <div><h4><u>QUALIFICATION 3</u></h4> 
         <P>
             <ul>
                 <li>A+, N+, MCSE 2000 and Computer Technician Diploma</li>
             <mark><strong></strong>Course Content:</strong></mark>
                 <ul><li>Repairing, installation of new software, To connect two or more computers to work in a network/together.</li></ul> 
             </ul>
-            
+        </div>
+    </div>
+
     <h2 id="Experience:">Experience:</h2>
             <h3><em></em>Job 1</em></h3>
 <p><strong><em>Company:</em>EOH</strong></p> 
