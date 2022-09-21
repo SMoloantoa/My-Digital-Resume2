@@ -90,12 +90,13 @@ header::after {
 }
 
 .logo {
-    float: left;
+    float:  left;
     padding: 10px 0;
 }
 
 nav {
     float: right;
+    
 }
 
 nav ul {
