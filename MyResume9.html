@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleleapis.com/css?family=work+sans:400" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <meta charset="UTF-8">
@@ -13,15 +14,15 @@
   
   <style>
     .fakeimg {
-      height: 200px;
-      background: #4c4c;
+      height: 300px;
+      background: rgba(96, 230, 223, 0.8);
       box-shadow: 2px 2px 0px #666666;  
     }
 
     #grid { 
      display: grid;
-     grid-template-rows: 1fr ;
-     grid-template-columns:  1fr;
+     grid-template-rows: 1fr 1fr ;
+     grid-template-columns:  1fr 1fr;
      grid-gap: 2vw;
      position: right;
 }
@@ -29,8 +30,8 @@
 font-size: 96%;
 padding: 1%;
 background: rgb(102, 96, 96);
-text-align: center;
-width: 30%;
+text-align: left;
+width: 97%;
 position: right;
 }
 
@@ -38,6 +39,24 @@ position: right;
             padding: 20px;
           background: lightgray;
           }
+
+          body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("img_girl.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
           
     </style>  
   <title>Resume 9</title>
@@ -170,7 +189,7 @@ position: right;
                                 <h5>Web Design Sep 20, 2022</h5>
                                 <div class="fakeimg"><header id="heading">
                                   <img id="Sejarow" src="Images/sejara1.jpg"
-                                  width="100px"
+                                  width="200px"
                                   alt="some backup text">Lorem, ips</div>
                             
         
@@ -209,12 +228,15 @@ position: right;
         </div>
     </div>
 
+    
     <div class="container">
         <div class="row">
         <aside class="col-sm-">
     <h2 id="Experience:">Experience:</h2>
+
     <div class="col">
-            <h3><em></em>Job 1</em></h3>
+        
+           <h3><em></em>Job 1</em></h3>
 <p><strong><em>Company:</em>EOH</strong></p> 
             <p> <li>Installation of new Desktops</li>
                 <li>To accurately record, update and document requests using the IT service desk system</li>
@@ -225,7 +247,7 @@ position: right;
                 <li>To resolve incidents and upgrade different types of software and hardware</li>
                 <li>To accurately record, update and document requests using the IT service desk system.</li>
                 <li>To assist all our users with any logged IT related incident when called upon.</li>
-                <li>To take ownership of issues by carrying out problem analysis to implement temporary or 
+                <li>To take ownership of issues by carrying out problem analysis to implement temporary or permanent solutions
                 </div></article>
 
                 <div class="col">
@@ -284,7 +306,7 @@ position: right;
                 <li>Installations of servers and configuratiions</li>    
                 <li>Maintain excellent verbal communication skills with the ability to communicate effectively with technical and non-technical colleagues at all levels in the organization</li>
             </div>
-            </div>
+        </div> 
         </div>
 <h3 id="skills">Skills</h3>
 <p>
@@ -310,7 +332,7 @@ position: right;
           
           <p>Skill 3 JavaScript</p>
           <div class="container">
-            <div class="skills js">65%</div>
+            <div class="skills js">45%</div>
           </div> 
     
     </ul></aside>

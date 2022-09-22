@@ -20,7 +20,7 @@ body {
 }
 
 header {
-    background: #55d6aa;
+    background: #a2dbc8;
     text-align: center;
     background-size: contain;
     
@@ -65,7 +65,7 @@ footer {
    
     
 
- . bg {
+ .bg {
     /* The image used */
     background-image: border;
     url("Sejarow.jpg");
@@ -91,7 +91,7 @@ header::after {
 
 .logo {
     float:  left;
-    padding: 10px 0;
+    padding: 10px;
 }
 
 nav {
@@ -107,8 +107,8 @@ nav ul {
 
 nav li {
     display: inline-block;
-    margin-left: 70px;
-    padding-top: 25px;
+    margin-left: 60px;
+    padding-top: 10px;
     position: relative;
 }
 
@@ -303,8 +303,6 @@ strong{
     animation-iteration-count: infinite;
     animation-timing-function: initial;
     animation-direction: alternate; 
-    
-   
 
 }
 
