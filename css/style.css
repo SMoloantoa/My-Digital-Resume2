@@ -10,6 +10,10 @@ body {
     display: flex;
     flex-direction: row;
     overflow: unset;
+    background-size: contain;
+    overflow: unset;
+    background-position: cover;
+    
     
 
 }
