@@ -15,14 +15,18 @@ body{
     background-size: 180%;
     height: 1000px;
     background-repeat: no-repeat;
-    
+    background-image: url(/images/302765.jpg);
+ 
   }
     
+
   
   .main{
     display: flex;
     flex-direction: row;
     overflow: unset;
+    background: url(https://cdn.britannica.com/47/18447-050-2C5E2037/Tai-Chi-chuan-practitioner.jpg), 
+    url(/images/Tai-Chi-chuan-practitioner.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: cover;
@@ -41,7 +45,6 @@ body{
   
   img {
     border-radius: 50%;
-  
         
   }
   
@@ -175,4 +178,3 @@ body{
     grid-column: end: 4;
   }
 }
-
