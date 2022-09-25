@@ -123,7 +123,7 @@ body{
       /*if the browser window is 768px or smaller */
       .content{
         background-color: rgb(13, 66, 83);
-        dispay: block;
+        display: block;
         width: 75%;
         height:250px;
         margin-left: auto;
@@ -131,7 +131,7 @@ body{
 
       }
       #bottom {
-        width: 90%;
+        width: %;
       }
     }
 
@@ -146,7 +146,7 @@ body{
     .grid-container > div {
       background-color: rgba (255, 255, 255, 0.8);
       text align: center;
-      padding:20px 0;
+      padding:20px 100;
       font-size: 30px;
       } 
 
@@ -177,4 +177,45 @@ body{
     grid-column: start: 1;
     grid-column: end: 4;
   }
+}
+
+.cards {
+  display: flex;
+}
+
+.card {
+  width: 33.33%;
+  color: #fff;
+  text-align: center;
+}
+
+.card p {
+  min-height: 80px;
+  padding: 0 39px 0 39px;
+}
+
+.strategy--logo {
+  position: absolute;
+  top: 383px;
+  left: 607px;
+  width: 96px;
+  height: 48px;
+  background-color: #5a471b;
+  border-top-right-radius: 48px;
+  border-top-left-radius: 48px;
+}
+
+.strategy {
+  margin-top: 135px;
+  background-color: #5a471b;
+}
+
+.crop--marketing {
+  margin-top: 135px;
+  background-color: #9fa374;
+}
+
+.risk--mgmt {
+  margin-top: 135px;
+  background-color: #666;
 }
