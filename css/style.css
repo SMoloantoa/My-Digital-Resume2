@@ -67,6 +67,7 @@ footer {
     height: 0%;
     max-width: 100%;
    
+  }
     
 
  .bg {
@@ -84,7 +85,6 @@ footer {
     
 
 }
-  }
 
 header::after {
     content: "";
